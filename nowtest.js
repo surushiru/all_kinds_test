@@ -1,6 +1,6 @@
 function preload() {
   character = [];
-  for (i = 0; i < 12; i++) {
+  for (i = 0; i < 18; i++) {
     character[i] = loadImage("./img/" + i + ".png");
   }
 }
