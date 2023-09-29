@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>all_kinds_test</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
     <style>
-        body {
-            padding: 0px;
-            margin: 0px;
-            overflow: hidden;
-        }
+     
     </style>
 </head>
 
 <body>
-    <script src="./nowtest.js"></script>
+    <div id="loading"></div>
+    <div id="view" class="view" onclick="click_view()">
+        <div class="text">
+            <img src="./img/click.png" alt="" class="click_img">
+            <h3>画面をタップして<br>
+                画像を表示する</h3>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/nowtest.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,31 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.view {
+  background: rgba(255, 255, 255, 0.2078431373);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.click_img {
+  transform: rotate(-25deg);
+}
+
+.text {
+  text-align: center;
+}
+
+#loading {
+  background: #727272;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

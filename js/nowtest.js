@@ -11,6 +11,11 @@ function setup() {
   print(windowWidth, windowHeight);
   createCanvas(windowWidth, windowHeight);
   background(120);
+  // push()
+  // fill("#4A4A4A")
+  // textSize(32);
+  // text("請點擊螢幕", windowWidth/2.3, windowHeight/2.2);
+  // pop()
   //計算點擊數字
   // push();
   // fill(120);
